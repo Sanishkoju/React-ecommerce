@@ -21,7 +21,7 @@ export const Navbar = () => {
 
             <nav className='navbar'>
                 <div className='nav-logo'>
-                    <p>MYSHOP</p>
+                    <p><Link to = '/'>MYSHOP</Link></p>
                 </div>
                 {
             window.innerWidth < 767 ? 

@@ -3,6 +3,7 @@ import './CartItems.css'
 import { ShopContext } from '../../Context/ShopContext'
 import remove_icon from '../Assets/cart_cross_icon.png'
 import cart_icon from '../Assets/cart_icon.png'
+import { Link } from 'react-router-dom'
 
 export const CartItems = () => {
     const{totalAmount,all_product,cartItems,removeFromCart} = useContext(ShopContext)
@@ -52,6 +53,7 @@ export const CartItems = () => {
         <span>Total: </span><span>Rs {totalAmount}</span>
     </div>
     </div>
+    <div><Link style={{marginBottom:"60px" ,padding:"15px" ,background:"var(--primary-color)", color:"#fff"}} to ="/">Go to Shop</Link> </div>
     </>
   )
 }

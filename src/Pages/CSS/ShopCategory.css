@@ -16,6 +16,9 @@
 
 
 }
+.shop-category > img{
+    width:100%;
+}
 .shopcategory-indexSort{
     display: flex;
     justify-content: space-between;
