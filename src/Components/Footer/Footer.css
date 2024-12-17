@@ -1,0 +1,25 @@
+.footer, .footer-social-icon, .footer-links{
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+    align-items: center;
+}
+.footer-copyright{
+    padding-block:20px;
+    margin-top: 20px;
+    border-top:1px solid #000;
+}
+footer{
+    background-color: var(--secondary-color);
+    padding-block: 30px;
+}
+.footer-logo p{
+    font-size: 30px;
+    font-weight: 600;
+}
+@media(max-width:767px){
+    .footer, .footer-links{
+        flex-direction: column;
+    }
+
+}

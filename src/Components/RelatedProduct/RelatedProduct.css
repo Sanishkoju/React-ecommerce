@@ -1,0 +1,19 @@
+.related-products{
+    padding-block:60px;
+}
+.swiper{
+    padding-bottom:40px !important;
+}
+.related-products .buttons > span{
+padding:10px;
+background:var(--secondary-color);
+cursor: pointer;
+
+}
+.buttons{
+    margin-block:30px;
+}
+.related-products .buttons > span.active{
+    background: var(--primary-color);
+    color:var(--bg-color);
+}

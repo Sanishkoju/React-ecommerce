@@ -1,0 +1,24 @@
+
+.offers-left,.offers-right{
+    flex:1;
+}
+.offers{
+    background:var(--gradient);
+    padding:60px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.offers h1{
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.offers-left p{
+ margin-top: 20px;
+}
+@media(max-width:767px){
+    .offers{
+        flex-direction: column;
+    }
+}

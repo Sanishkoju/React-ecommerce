@@ -1,0 +1,55 @@
+.cartitems-format-main, .cartitems-format{
+    display:flex;
+    align-items: center;
+    margin-block:20px;
+}
+.cartitems-format-main p{
+    font-weight: 500;
+}
+.carttotal{
+    margin-block:60px;
+}
+.cartitems-format-main p:nth-child(1), .cartitems-format > img:nth-child(1){
+flex:0 0 15%;
+max-width:80px;
+
+}
+.cartitems-format-main p:nth-child(2), .cartitems-format > .name  {
+flex:0 0 30%;
+}
+.cartitems-format-main p:nth-child(3), .cartitems-format> .newprice{
+    flex:0 0 15%;
+}
+.cartitems-format-main p:nth-child(4), .cartitems-format> .cartitems-quantity{
+    flex:0 0 15%;
+}
+.cartitems-format-main p:nth-child(5), .cartitems-format > .quantity{
+    flex:0 0 15%;
+}
+.cartitems-format-main p:nth-child(6), .cartitems-format> .cross
+{
+    flex:0 0 10%;
+}
+.cartitems-format> .cartitems-quantity{
+    display: grid;
+    place-content: center;
+}
+.cartitems-format> .cartitems-quantity p{
+    width:40px;
+    height:40px;
+    border:1px solid #000000;
+    display:grid;
+    place-content: center;
+}
+.cartitems-format> .cross img{
+    width:15px;
+    height:15px;
+}
+@media(max-width:767px){
+    .cartitems{
+        overflow-y: auto;
+    }
+    .cartitems-format-main, .cartitems-format{
+        gap:20px;
+    }
+}
