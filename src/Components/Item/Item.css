@@ -34,5 +34,6 @@
     text-align: left;
 }
 article{
-    width:calc(100% - 10px);
+    padding-inline: 10px;
+    overflow: hidden;
 }

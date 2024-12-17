@@ -81,4 +81,7 @@
     .nav-logo p{
         font-size: 25px;
     }
+    .nav-menu.mob{
+        background-color: var(--secondary-color);
+    }
 }
