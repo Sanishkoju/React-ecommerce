@@ -50,7 +50,7 @@ const ShopContextProvider = (props) =>{
     
     const removeFromCart =(itemId) =>{
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}));
-        setNum(0);
+        setNum(getDefaultCart());
     }
     const updateCart = (itemId) => {
         setCartItems((prev) => ({
@@ -62,7 +62,7 @@ const ShopContextProvider = (props) =>{
     
     const removeallFromCart =(itemId) =>{
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-count}));
-        setNum(0);
+        setNum(getDefaultCart());
     }
     
     
