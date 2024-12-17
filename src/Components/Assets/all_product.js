@@ -42,10 +42,10 @@ let all_product = [
     category: "women",
       images: [
     p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p1_img,
     rating:4,
@@ -57,11 +57,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p2_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p2_img,
     rating:4,
@@ -73,11 +73,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p3_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p3_img,
     rating:4,
@@ -89,11 +89,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p4_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p4_img,
     rating:4,
@@ -105,11 +105,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p5_img,  
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p5_img,
     rating:4,
@@ -121,11 +121,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     images: [
-      p1_img,  // Image 1 URL or path
-      p2_img,  // Image 2 URL or path
-      p3_img,  // Image 3 URL or path
-      p4_img,  // Image 4 URL or path
-      p5_img   // Image 5 URL or path
+      p6_img,  // Image 1 URL or path
+      "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+      "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+      "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+      "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
     ],
     image: p6_img,
     rating:4,
@@ -137,11 +137,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p7_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p7_img,
     rating:4,
@@ -153,11 +153,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p8_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p8_img,
     rating:4,
@@ -169,11 +169,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p9_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p9_img,
     rating:4,
@@ -185,11 +185,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p10_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p10_img,
     rating:4.5,
@@ -201,11 +201,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p11_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p11_img,
     rating:4.5,
@@ -217,11 +217,11 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
       images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p12_img,  
+    "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"   
   ],
     image: p12_img,
     rating:4.5,
@@ -233,11 +233,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p13_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"  
   ],
     image: p13_img,
     rating:4.5,
@@ -249,11 +249,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p14_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p14_img,
     rating:4.5,
@@ -265,11 +265,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p15_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p15_img,
     rating:4.5,
@@ -281,11 +281,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p16_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p16_img,
     rating:4.5,
@@ -298,11 +298,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p17_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p17_img,
     rating:4.5,
@@ -314,11 +314,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p18_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p18_img,
     rating:4.5,
@@ -330,11 +330,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p19_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p19_img,
     rating:4.5,
@@ -346,11 +346,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p20_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p20_img,
     rating:4.5,
@@ -362,11 +362,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p21_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p21_img,
     rating:4.5,
@@ -378,11 +378,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p22_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p22_img,
     rating:4.5,
@@ -394,11 +394,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p23_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p23_img,
     rating:4.5,
@@ -410,11 +410,11 @@ let all_product = [
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p24_img,  // Image 1 URL or path
+    "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
+    "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
+    "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
+    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p24_img,
     rating:4.5,
@@ -426,11 +426,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p25_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p25_img,
     rating:4.5,
@@ -442,11 +442,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p26_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p26_img,
     rating:4.5,
@@ -458,11 +458,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p27_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p27_img,
     rating:4.5,
@@ -474,11 +474,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p28_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p28_img,
     rating:4.5,
@@ -490,11 +490,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p29_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p29_img,
     rating:4.5,
@@ -506,11 +506,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p30_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p30_img,
     rating:4.5,
@@ -522,11 +522,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p31_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p31_img,
     rating:4.5,
@@ -538,11 +538,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p32_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p32_img,
     rating:4.5,
@@ -554,11 +554,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p33_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p33_img,
     rating:4.5,
@@ -570,11 +570,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p34_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p34_img,
     rating:4.5,
@@ -586,11 +586,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p35_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p35_img,
     rating:4.5,
@@ -602,11 +602,11 @@ let all_product = [
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
           images: [
-    p1_img,  // Image 1 URL or path
-    p2_img,  // Image 2 URL or path
-    p3_img,  // Image 3 URL or path
-    p4_img,  // Image 4 URL or path
-    p5_img   // Image 5 URL or path
+    p36_img,  // Image 1 URL or path
+    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
+    "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p36_img,
     rating:4.5,
