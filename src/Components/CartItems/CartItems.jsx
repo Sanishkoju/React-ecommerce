@@ -6,8 +6,8 @@ import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
 
 export const CartItems = () => {
-    const{totalAmount,all_product,cartItems,removeFromCart} = useContext(ShopContext)
-    // console.log("123",all_product,cartItems,removeFromCart)
+    const{num,handleplus,addToCart,totalAmount,all_product,cartItems,removeFromCart} = useContext(ShopContext)
+  
   return (
     <>
     <div className='cartitems'>
@@ -32,7 +32,8 @@ export const CartItems = () => {
                         <div className='newprice'><p>{e.new_price}</p></div>
          
                         <div className='cartitems-quantity'><p>{cartItems[e.id]}</p></div>
-    
+                    
+                        {e.id}
                         <div className='quantity'>{e.new_price*cartItems[e.id]}</div>
                         <div className="cross"><img src={remove_icon} onClick={()=>removeFromCart(e.id)} alt=""/></div>
                     </div>

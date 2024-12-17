@@ -99,9 +99,9 @@ export const ProductDisplay = ({product}) => {
            </div>
            <div className="inc_dec">
            <span onClick={()=>{handleminus(product.id)}}>-</span>
-           <span>{num}</span>
+           <span>{num[product.id]}</span>
            <span onClick={()=>{handleplus(product.id)}}>+</span>
-           <Link to = { num===0 ? '#' : '/cart' }><button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button></Link>
+           <Link to = { num[product.id]===0 ? '#' : '/cart' }><button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button></Link>
            </div>
            
            <p className='productdisplay-right-category'><span>Category :</span>{product.category}</p>
