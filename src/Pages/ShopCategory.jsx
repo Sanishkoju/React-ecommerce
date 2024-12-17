@@ -25,7 +25,7 @@ export const ShopCategory = (props) => {
                   console.log("items",props.category , item.category)
                   if(props.category === item.category){
                     return(
-                      <Item key={index} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
+                      <Item key={index} item={item} />
                     )
                   }
                   else{

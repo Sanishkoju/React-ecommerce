@@ -1,14 +1,13 @@
 import React , {useContext, useState,useEffect} from 'react'
 import './ProductDisplay.css'
-import star_icon from "../Assets/star_icon.png"
-import star_dull_icon from "../Assets/star_dull_icon.png"
 import { ShopCategory } from '../../Pages/ShopCategory'
-import { ShopContext } from '../../Context/ShopContext'
-import { Link } from 'react-router-dom'
+import CartButton from '../CartButton/CartButton'
+import Rating from '../Rating/Rating'
+
 
 export const ProductDisplay = ({product}) => {
     // const{addToCart} = useContext(ShopContext)
-    const{addToCart,num,handleminus,handleplus} = useContext(ShopContext)
+    
     const [active , setActive] = useState(0);
 
     const handleactive =(index)=>{
@@ -53,34 +52,7 @@ export const ProductDisplay = ({product}) => {
         </div>
         <div className="productdisplay-right">
           <h1>{product.name}</h1>
-           <div className="productdisplay-right-star">
-           {Array.from({ length: (!Number.isInteger(product.rating)) ? (Math.floor(product.rating)) : product.rating }, (_, i) => {
-            
-                if(product.rating % 1 !== 0){
-                    
-                    <img src={star_dull_icon} alt="" />
-               return(
-                <img src={star_icon} alt="" />    
-            )
-            
-                }
-               else
-                {
-                return(
-                    <img src={star_icon} alt="" />
-                )
-            }
-                
-
-            })}
-            
-            {(product.rating % 1 !== 0) ?
-           <img src={star_dull_icon} alt="" />
-           :
-           <></>
-}
-           <span> ({product.rating})</span>
-           </div>
+           <Rating product={product} />
            <div className="productdisplay-right-prices">
             <div className="productdisplay-right-price-old">Rs {product.old_price}</div>
             <div className="productdisplay-right-price-new">Rs {product.new_price}</div>
@@ -97,13 +69,7 @@ export const ProductDisplay = ({product}) => {
                 <div>XL</div>
             </div>
            </div>
-           <div className="inc_dec">
-           <span onClick={()=>{handleminus(product.id)}}>-</span>
-           <span>{num[product.id]}</span>
-           <span onClick={()=>{handleplus(product.id)}}>+</span>
-           <Link to = { num[product.id]===0 ? '#' : '/cart' }><button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button></Link>
-           </div>
-           
+            <CartButton product={product}/>          
            <p className='productdisplay-right-category'><span>Category :</span>{product.category}</p>
            <p className='productdisplay-right-category'><span>Tags :</span>Modern, Latest</p>
 

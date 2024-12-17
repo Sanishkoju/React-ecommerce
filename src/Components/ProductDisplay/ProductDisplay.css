@@ -44,7 +44,7 @@
     scrollbar-width: none;  /* Firefox */
   }
   .productdisplay{
-    padding-block:20px 60px;
+    padding-block:0px 60px;
 
   }
   .productdisplay-right{
@@ -85,7 +85,10 @@
     outline: none;
     border: none;
     color: var(--bg-color);
-    font-size: 20px;
+    padding:12px 15px;
+border-radius:8px;
+margin-left:5px;
+font-size:16px;
 }
 .inc_dec{
     display: flex;

@@ -37,3 +37,14 @@ article{
     padding-inline: 10px;
     overflow: hidden;
 }
+.inc_dec button{
+background-color: var(--primary-color);
+margin-block: 20px;
+outline: none;
+border: none;
+color: var(--bg-color);
+padding:12px 15px;
+border-radius:8px;
+margin-left:5px;
+font-size:16px;
+}
