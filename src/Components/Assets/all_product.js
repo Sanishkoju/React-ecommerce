@@ -112,7 +112,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
   ],
     image: p5_img,
-    rating:4,
+    rating:2,
     new_price: 85.0,
     old_price: 120.5,
   },
@@ -122,8 +122,8 @@ let all_product = [
     category: "women",
     images: [
       p6_img,  // Image 1 URL or path
-      "https://cdn.pixabay.com/photo/2023/11/06/06/24/woman-8368918_1280.jpg",  
-      "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-4809434_960_720.jpg",  
+      "https://cdn.pixabay.com/photo/2023/11/06/06/22/woman-8368918_1280.jpg",  
+      "https://cdn.pixabay.com/photo/2020/02/01/03/00/girl-2809232_960_720.jpg",  
       "https://cdn.pixabay.com/photo/2017/12/30/13/25/meadow-3050075_1280.jpg",  
       "https://cdn.pixabay.com/photo/2020/04/23/19/15/face-5083690_960_720.jpg"
     ],
@@ -237,7 +237,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"  
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"  
   ],
     image: p13_img,
     rating:4.5,
@@ -253,7 +253,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p14_img,
     rating:4.5,
@@ -269,7 +269,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p15_img,
     rating:4.5,
@@ -285,7 +285,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p16_img,
     rating:4.5,
@@ -302,7 +302,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p17_img,
     rating:4.5,
@@ -318,7 +318,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p18_img,
     rating:4.5,
@@ -334,7 +334,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p19_img,
     rating:4.5,
@@ -350,7 +350,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p20_img,
     rating:4.5,
@@ -366,7 +366,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p21_img,
     rating:4.5,
@@ -382,7 +382,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p22_img,
     rating:4.5,
@@ -398,7 +398,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p23_img,
     rating:4.5,
@@ -414,7 +414,7 @@ let all_product = [
     "https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg",
     "https://cdn.pixabay.com/photo/2020/05/03/18/57/stand-5126363_960_720.jpg",
     "https://cdn.pixabay.com/photo/2020/06/20/16/13/male-5321547_1280.jpg",  
-    "ttps://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
+    "https://cdn.pixabay.com/photo/2024/03/31/12/44/ai-generated-8666636_1280.png"
   ],
     image: p24_img,
     rating:4.5,
@@ -427,13 +427,13 @@ let all_product = [
     category: "kid",
           images: [
     p25_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p25_img,
-    rating:4.5,
+    rating:3.5,
     new_price: 85.0,
     old_price: 120.5,
   },
@@ -443,13 +443,13 @@ let all_product = [
     category: "kid",
           images: [
     p26_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p26_img,
-    rating:4.5,
+    rating:3.5,
     new_price: 85.0,
     old_price: 120.5,
   },
@@ -459,13 +459,13 @@ let all_product = [
     category: "kid",
           images: [
     p27_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p27_img,
-    rating:4.5,
+    rating:3.5,
     new_price: 85.0,
     old_price: 120.5,
   },
@@ -475,13 +475,13 @@ let all_product = [
     category: "kid",
           images: [
     p28_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p28_img,
-    rating:4.5,
+    rating:3.5,
     new_price: 85.0,
     old_price: 120.5,
   },
@@ -491,13 +491,13 @@ let all_product = [
     category: "kid",
           images: [
     p29_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
   ],
     image: p29_img,
-    rating:4.5,
+    rating:3.5,
     new_price: 85.0,
     old_price: 120.5,
   },
@@ -507,7 +507,7 @@ let all_product = [
     category: "kid",
           images: [
     p30_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
@@ -523,7 +523,7 @@ let all_product = [
     category: "kid",
           images: [
     p31_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
@@ -539,7 +539,7 @@ let all_product = [
     category: "kid",
           images: [
     p32_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
@@ -555,7 +555,7 @@ let all_product = [
     category: "kid",
           images: [
     p33_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
@@ -571,7 +571,7 @@ let all_product = [
     category: "kid",
           images: [
     p34_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
@@ -587,7 +587,7 @@ let all_product = [
     category: "kid",
           images: [
     p35_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
@@ -603,7 +603,7 @@ let all_product = [
     category: "kid",
           images: [
     p36_img,  // Image 1 URL or path
-    "hhttps://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
+    "https://cdn.pixabay.com/photo/2023/05/05/18/26/child-7972995_1280.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/31/09/37/toddler-7233172_1280.jpg",  
     "https://cdn.pixabay.com/photo/2021/02/01/12/27/fishing-5970472_960_720.jpg",  
     "https://cdn.pixabay.com/photo/2022/05/26/15/02/happy-7223110_960_720.jpg"
