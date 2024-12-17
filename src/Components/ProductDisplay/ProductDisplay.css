@@ -104,6 +104,9 @@
 .sideimgright figure{
     height:100%;
 }
+.sideimgright figure img{
+    object-position: top center;
+}
 @media(max-width:1024px){
     .productdisplay{
         flex-direction: column;
@@ -125,7 +128,7 @@
         height: 90px;
     }
     .sideimgright figure{
-        height:300px;
+        height:450px;
         overflow: hidden;
     }
 }
