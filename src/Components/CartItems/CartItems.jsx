@@ -6,7 +6,7 @@ import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
 
 export const CartItems = () => {
-    const{num,handleplus,addToCart,totalAmount,all_product,cartItems,removeFromCart} = useContext(ShopContext)
+    const{updateCart,removeallFromCart,num,handleplus,addToCart,totalAmount,all_product,cartItems,removeFromCart} = useContext(ShopContext)
   
   return (
     <>
@@ -30,12 +30,15 @@ export const CartItems = () => {
                         <img src={e.image} alt="" className='carticon-product-icon'/>
                         <div className='name'><p>{e.name}</p></div>
                         <div className='newprice'><p>{e.new_price}</p></div>
-         
-                        <div className='cartitems-quantity'><p>{cartItems[e.id]}</p></div>
-                    
-                        {e.id}
+                        <div className='cartitems-quantity'>
+                        <div className='quantity-box' onClick={()=>removeFromCart(e.id)}>-</div>
+                       
+                        <div className='quantity-box'>{cartItems[e.id]}</div>
+                        
+                        <div className='quantity-box' onClick={()=>updateCart(e.id)}>+</div>
+                        </div>
                         <div className='quantity'>{e.new_price*cartItems[e.id]}</div>
-                        <div className="cross"><img src={remove_icon} onClick={()=>removeFromCart(e.id)} alt=""/></div>
+                        <div className="cross"><img src={remove_icon} onClick={()=>removeallFromCart(e.id)} alt=""/></div>
                     </div>
                 </div> 
                     )
