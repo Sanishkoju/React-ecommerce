@@ -4,7 +4,7 @@ import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
-import drop_icon from'../Assets/dropdown_icon.png'
+
 
 export const Navbar = () => {
     const{count} = useContext(ShopContext)
@@ -25,7 +25,7 @@ export const Navbar = () => {
                 </div>
                 {
             window.innerWidth < 767 ? 
-            <img onClick={handledrop} src={drop_icon} alt=""  style={{cursor:"pointer"}}/> : null
+            <div onClick={handledrop} style={{cursor:"pointer"}}><Dropsvg /></div> : null
                 }
                 {
                 drop || window.innerWidth > 767 ?
@@ -60,4 +60,10 @@ export const Navbar = () => {
     </div>
     </header>
   )
+}
+
+const Dropsvg = ()=>{
+    return(
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25px" height="25px"><path d="M256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM127 297c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l71 71L232 120c0-13.3 10.7-24 24-24s24 10.7 24 24l0 214.1 71-71c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 409c-9.4 9.4-24.6 9.4-33.9 0L127 297z"/></svg>
+    )
 }
